@@ -2,13 +2,9 @@ body {
     background-color: black;
     color: #00ff00;
     font-family: monospace;
-    text-align: center;
     margin: 0;
-    padding: 20px;
 
-    /* CENTRADO PERFECTO */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -18,6 +14,7 @@ body {
 .container {
     width: 90%;
     max-width: 400px;
+    text-align: center;
 }
 
 /* TITULOS */
@@ -29,7 +26,7 @@ h2 {
     font-size: 1.5rem;
 }
 
-/* INPUTS */
+/* INPUT */
 input {
     width: 100%;
     padding: 12px;
@@ -37,17 +34,15 @@ input {
     background: black;
     color: #00ff00;
     border: 1px solid #00ff00;
-    font-size: 1rem;
 }
 
-/* BOTONES */
+/* BOTON */
 button {
     width: 100%;
     padding: 12px;
     background: black;
     color: #00ff00;
     border: 1px solid #00ff00;
-    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -56,7 +51,7 @@ button:hover {
     color: black;
 }
 
-/* 📱 RESPONSIVE (celulares) */
+/* RESPONSIVE */
 @media (max-width: 600px) {
     h1 {
         font-size: 1.6rem;
@@ -64,10 +59,5 @@ button:hover {
 
     h2 {
         font-size: 1.3rem;
-    }
-
-    input, button {
-        font-size: 0.9rem;
-        padding: 10px;
     }
 }
