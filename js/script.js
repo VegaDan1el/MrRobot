@@ -56,7 +56,7 @@ function verificar(){
     let user = document.getElementById("clave").value.toUpperCase();
 
     if(user === clave && user === "MRROBOT"){
-        document.body.innerHTML = "<h1>🎉 FELICIDADES HACKER 🎉</h1>";
+        document.body.innerHTML = "<h1>🎉 FELICIDADES PINCHE PUTITA 🎉</h1>";
     } else {
         alert("Clave incorrecta");
         localStorage.clear();
