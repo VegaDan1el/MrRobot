@@ -47,16 +47,16 @@ function p3(){
 
 // FINAL
 function verificar(){
-    let p1 = localStorage.getItem("p1");
-    let p2 = localStorage.getItem("p2");
-    let p3 = localStorage.getItem("p3");
+    let p1 = localStorage.getItem("p1") || "";
+    let p2 = localStorage.getItem("p2") || "";
+    let p3 = localStorage.getItem("p3") || "";
 
     let clave = p1 + p2 + p3;
 
     let user = document.getElementById("clave").value.toUpperCase();
 
     if(user === clave && user === "MRROBOT"){
-        document.body.innerHTML = "<h1>🎉 FELICIDADES PINCHE PUTITA 🎉</h1>";
+        document.body.innerHTML = "<h1>🎉 FELICIDADES HACKER 🎉</h1>";
     } else {
         alert("Clave incorrecta");
         localStorage.clear();
