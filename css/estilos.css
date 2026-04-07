@@ -1,33 +1,24 @@
-body {
-    background-color: black;
-    color: #00ff00;
-    font-family: monospace;
-    margin: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    min-height: 100vh;
-    padding: 20px;
+/* IMPORTANTE */
+* {
+    box-sizing: border-box;
 }
 
+/* CONTENEDOR */
 .container {
     width: 100%;
-    max-width: 350px; /* 🔥 ajusta aquí */
-    text-align: center;
+    max-width: 350px;
 }
 
+/* INPUT Y BOTON IGUALES */
 input, button {
     width: 100%;
-    padding: 12px;
+    height: 45px; /* 🔥 misma altura exacta */
     margin: 10px 0;
+    padding: 0 10px;
+
     background: black;
     color: #00ff00;
     border: 1px solid #00ff00;
-}
 
-button:hover {
-    background: #00ff00;
-    color: black;
+    font-size: 1rem;
 }
